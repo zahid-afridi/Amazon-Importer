@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Roboto", sans-serif !important; */
+    font-family: "Poppins", sans-serif !important;
+}
+.CSV_BOX{
+    
+    border-radius: 20px;
+    display: flex;
+    border: 2px solid #899CB9;
+    border-style: dotted;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 30px;
+    align-items: center;
+    padding: 50px;
+}
+.CSV_BOX img {
+    width: 10rem;
+}
+.AMX_BOX  {
+    border-radius: 20px;
+    background-color: #F3F6FA;
+    display: flex;
+   cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 100px; 
+}
+.AMX_BOX img {
+    width: 6rem;
+}
+
+ /* card design start  */
+ .card {
+    transition: transform 0.4s;
+    border-radius: 17px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    height: 210px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  .btn {
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-primary:hover,
+  .btn-danger:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  .custom-list {
+    list-style-type: none !important;
+
+    margin-left: 20px;
+  }
+  .custom-list li {
+    list-style: none;
+  }
+  
+  .pricing-box {
+    -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+    padding: 35px 50px;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .pricing-box .plan {
+    font-size: 34px;
+  }
+  
+  .pricing-badge {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    right: 0;
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    overflow: hidden;
+    height: 100px;
+  }
+  
+  .pricing-badge .badge {
+    float: right;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    right: -67px;
+    top: 17px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+    font-size: 13px;
+    margin: 0;
+    padding: 7px 10px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #fb7179;
+  }
+  .mb-2, .my-2 {
+      margin-bottom: .5rem!important;
+  }
+  p {
+      line-height: 1.7;
+  }
+  

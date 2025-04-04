@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "21be4bf3fab7a03a5d1e6fa55b3a138b"
+name = "AmZCopy"
+handle = "amzcopy"
+application_url = "https://voltage-serves-sa-deposit.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "paymenttest-store.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_content,read_locales,read_products,read_script_tags,read_themes,write_content,write_locales,write_products,write_script_tags,write_themes"
+
+[auth]
+redirect_urls = [
+  "https://voltage-serves-sa-deposit.trycloudflare.com/auth/callback",
+  "https://voltage-serves-sa-deposit.trycloudflare.com/auth/shopify/callback",
+  "https://voltage-serves-sa-deposit.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2025-01"
+
+[pos]
+embedded = false
