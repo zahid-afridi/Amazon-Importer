@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "a50c9af86020e75e4680ddec886b0eec"
+name = "Amazon importer"
+handle = "amazon-importer-30"
+application_url = "https://dialogue-surplus-me-questions.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "amzimporter.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_content,read_locales,read_products,read_script_tags,read_themes,write_content,write_locales,write_products,write_script_tags,write_themes"
+
+[auth]
+redirect_urls = [
+  "https://dialogue-surplus-me-questions.trycloudflare.com/auth/callback",
+  "https://dialogue-surplus-me-questions.trycloudflare.com/auth/shopify/callback",
+  "https://dialogue-surplus-me-questions.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2025-04"
+
+[pos]
+embedded = false

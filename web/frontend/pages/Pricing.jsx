@@ -61,7 +61,7 @@ export default function Pricing() {
         price: elem.packagePrice,
         amazonProductNumber: elem.packageAmazonImportNumber,
         CsvProductNumber: elem.packageCsvImportNumber,
-        retrun_url: `https://${StoreInfo.domain}/admin/apps/21be4bf3fab7a03a5d1e6fa55b3a138b`,
+        retrun_url: `https://${StoreInfo.domain}/admin/apps/a50c9af86020e75e4680ddec886b0eec`,
       };
       if (elem.packagePrice == 0) {
         const request = await fetch(
