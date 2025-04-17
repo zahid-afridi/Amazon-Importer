@@ -19,17 +19,24 @@ export default function Pricing() {
   const [pakages, setPakages] = useState([
     {
       packageName: "Basic",
-      packagePrice: 10,
-      packageAmazonImportNumber: 10,
-      packageCsvImportNumber: 10,
+      packagePrice: 5,
+      packageAmazonImportNumber: 100,
+      packageCsvImportNumber: 100,
       packageDesc: "Basic plan is limited to 100 Amazon products and 100 CSV products."
+    },
+    {
+      packageName: "Standard",
+      packagePrice: 10,
+      packageAmazonImportNumber: 200,
+      packageCsvImportNumber: 200,
+      packageDesc: "Standard plan is limited to 200 Amazon products and 200 CSV products."
     },
     {
       packageName: "Pro",
       packagePrice: 20,
-      packageAmazonImportNumber: 20,
-      packageCsvImportNumber: 20,
-      packageDesc: "Pro plan is limited to 1000 Amazon products and 1000 CSV products."
+      packageAmazonImportNumber: 400,
+      packageCsvImportNumber: 400,
+      packageDesc: "Pro plan is limited to 400 Amazon products and 400 CSV products."
     }
   ]);
 
