@@ -24,7 +24,7 @@ const UserPay=async(req,res)=>{
         appliction_charge.name =name,
         appliction_charge.price= price,
         appliction_charge.return_url =retrun_url
-        appliction_charge.test =true;
+        appliction_charge.test =false;
        
         await appliction_charge.save({
             update:true
