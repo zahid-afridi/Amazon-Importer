@@ -1,10 +1,12 @@
 import mongoose from "mongoose";
 
+
+const DbUrl='mongodb+srv://yohan:yohan123@cluster0.rdxmyhl.mongodb.net/AmazonImporter'
+// const DbUrl='await mongoose.connect('mongodb://localhost:27017/AMZCOPY')'
 const DbCon=async()=>{
     try {
         
-        // await mongoose.connect('mongodb://localhost:27017/AMZCOPY')
-        await mongoose.connect('mongodb+srv://shafsamazonaffiliateimporter:shafiali2024@cluster0.zseougt.mongodb.net/AmazonImporterCopy')
+        await mongoose.connect(DbUrl)
         
        
         console.log("Mongo db is conncted")

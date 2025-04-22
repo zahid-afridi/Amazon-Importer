@@ -3,7 +3,7 @@
 client_id = "a50c9af86020e75e4680ddec886b0eec"
 name = "Amazon importer"
 handle = "amazon-importer-30"
-application_url = "https://latex-villages-downloading-catalogue.trycloudflare.com"
+application_url = "https://row-varied-backup-obituaries.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_content,read_locales,read_products,read_script_tags,read_themes,w
 
 [auth]
 redirect_urls = [
-  "https://latex-villages-downloading-catalogue.trycloudflare.com/auth/callback",
-  "https://latex-villages-downloading-catalogue.trycloudflare.com/auth/shopify/callback",
-  "https://latex-villages-downloading-catalogue.trycloudflare.com/api/auth/callback"
+  "https://row-varied-backup-obituaries.trycloudflare.com/auth/callback",
+  "https://row-varied-backup-obituaries.trycloudflare.com/auth/shopify/callback",
+  "https://row-varied-backup-obituaries.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
